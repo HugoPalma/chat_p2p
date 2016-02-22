@@ -69,6 +69,7 @@
             this.b_ip_connect.TabIndex = 2;
             this.b_ip_connect.Text = "Connect";
             this.b_ip_connect.UseVisualStyleBackColor = true;
+            this.b_ip_connect.Click += new System.EventHandler(this.b_ip_connect_Click);
             // 
             // tb_ip_connect
             // 
@@ -92,6 +93,7 @@
             this.b_ip_accept.TabIndex = 5;
             this.b_ip_accept.Text = "Accept";
             this.b_ip_accept.UseVisualStyleBackColor = true;
+            this.b_ip_accept.Click += new System.EventHandler(this.b_ip_accept_Click);
             // 
             // label2
             // 
@@ -110,6 +112,7 @@
             this.b_ip_deny.TabIndex = 7;
             this.b_ip_deny.Text = "Deny";
             this.b_ip_deny.UseVisualStyleBackColor = true;
+            this.b_ip_deny.Click += new System.EventHandler(this.b_ip_deny_Click);
             // 
             // b_message_send
             // 
@@ -120,6 +123,7 @@
             this.b_message_send.TabIndex = 8;
             this.b_message_send.Text = "Send";
             this.b_message_send.UseVisualStyleBackColor = true;
+            this.b_message_send.Click += new System.EventHandler(this.b_message_send_Click);
             // 
             // tb_chat
             // 
@@ -140,6 +144,7 @@
             this.b_chat_clear.TabIndex = 10;
             this.b_chat_clear.Text = "Clear";
             this.b_chat_clear.UseVisualStyleBackColor = true;
+            this.b_chat_clear.Click += new System.EventHandler(this.b_chat_clear_Click);
             // 
             // tb_nickname
             // 
@@ -156,6 +161,7 @@
             this.b_nickname_set.TabIndex = 11;
             this.b_nickname_set.Text = "Set";
             this.b_nickname_set.UseVisualStyleBackColor = true;
+            this.b_nickname_set.Click += new System.EventHandler(this.b_nickname_set_Click);
             // 
             // label3
             // 
@@ -188,6 +194,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
             this.Text = "Chat P2P";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

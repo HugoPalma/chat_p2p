@@ -17,5 +17,39 @@ namespace chat_p2p
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void b_ip_connect_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void b_ip_deny_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void b_ip_accept_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void b_nickname_set_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void b_chat_clear_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void b_message_send_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
